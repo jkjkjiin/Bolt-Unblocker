@@ -1,5 +1,5 @@
 <div align="center">
-      <h1><b>Get ready for Bolt</b></h1>
+      <h1><b>Get ready for Bolt use nasa cloak when on index.html to be redirected to proxy page hold shift and this key ` to get this key ~ and it will automaticly redirect in about:blank to proxy cloaked and disquised as a nasa wesbite</b></h1>
 <img src="https://i.imgur.com/Yl2BdtT.png" style="width: 1200px">
 <img src="https://i.postimg.cc/8c8z0BmC/boltosdemo.png" style="width: 1200px">
 </div>
