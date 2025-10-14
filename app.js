@@ -41,7 +41,7 @@ await fastify.register(fastifyStatic, {
     decorateReply: false
 });
 
-fastify.addContentTypeParser('application/javascript', { parseAs: 'string' }, (req, body, done) => {
+fastify.addContentTypeParser('application/javascript', { parseAs: 'string' }, (_req, body, done) => {
     done(null, body);
 });
 
@@ -49,7 +49,7 @@ await fastify.register(fastifyStatic, {
     root: libcurlPath,
     prefix: "/libcurl/",
     decorateReply: false,
-    setHeaders: (res, path, stat) => {
+    setHeaders: (res, path, _stat) => {
         if (path.endsWith('.mjs')) {
             res.setHeader('Content-Type', 'application/javascript');
         }
@@ -63,13 +63,13 @@ await fastify.register(fastifyStatic, {
 });
 
 
-fastify.get("/", (request, reply) => {
+fastify.get("/", (_request, reply) => {
     return reply.sendFile("index.html");
 });
 
 
-fastify.setNotFoundHandler((request, reply) => {
-    return reply.sendFile("index.html");
+fastify.setNotFoundHandler((_request, reply) => {
+    return reply.sendFile("astonomy.html");
 });
 
 
