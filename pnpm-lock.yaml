@@ -21,8 +21,8 @@ importers:
         specifier: ^1.5.0
         version: 1.5.0
       '@mercuryworkshop/scramjet':
-        specifier: https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-1.0.2-dev.tgz
-        version: https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-1.0.2-dev.tgz
+        specifier: https://github.com/qerionx/scramjetk/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz
+        version: https://github.com/qerionx/scramjetk/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz
       '@mercuryworkshop/wisp-js':
         specifier: ^0.3.3
         version: 0.3.3(utf-8-validate@6.0.5)
@@ -147,9 +147,9 @@ packages:
   '@mercuryworkshop/libcurl-transport@1.5.0':
     resolution: {integrity: sha512-FV3fFjJYoojmkolMESmZnWosz/tQ9AbVQurt6gcJX69BTvAXzjWf6ganpaeSvilQXVK59PDWyYT3gE0aShd12A==}
 
-  '@mercuryworkshop/scramjet@https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-1.0.2-dev.tgz':
-    resolution: {tarball: https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-1.0.2-dev.tgz}
-    version: 1.0.2-dev
+  '@mercuryworkshop/scramjet@https://github.com/qerionx/scramjetk/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz':
+    resolution: {tarball: https://github.com/qerionx/scramjetk/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz}
+    version: 2.0.0-alpha
 
   '@mercuryworkshop/wisp-js@0.3.3':
     resolution: {integrity: sha512-egc9jbBmNqPXGOkvOOG142SLaBL3jBkz0IGnhYYWOnmg5FeC6KfGSRU5xlk+dKYecE3tuH03bFNi3/vBAOoJKA==}
@@ -457,8 +457,8 @@ packages:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
 
-  htmlparser2@9.1.0:
-    resolution: {integrity: sha512-5zfg6mHUoaer/97TxnGpxmbR7zJtPwIYFMZ/H5ucTlPZhKvtum05yiPK3Mgai3a0DyVxv7qYqoweaEd2nrYQzQ==}
+  htmlparser2@10.0.0:
+    resolution: {integrity: sha512-TwAZM+zE5Tq3lrEHvOlvwgj1XLWQCtaaibSN11Q+gGBAS7Y1uZSWwXXRe4iF6OXnaq1riyQAPFOBtYc77Mxq0g==}
 
   http-errors@2.0.0:
     resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
@@ -943,13 +943,14 @@ snapshots:
     dependencies:
       libcurl.js: 0.7.1
 
-  '@mercuryworkshop/scramjet@https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-1.0.2-dev.tgz':
+  '@mercuryworkshop/scramjet@https://github.com/qerionx/scramjetk/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz':
     dependencies:
       '@mercuryworkshop/bare-mux': 2.1.7
       dom-serializer: 2.0.0
       domhandler: 5.0.3
       domutils: 3.2.2
-      htmlparser2: 9.1.0
+      htmlparser2: 10.0.0
+      idb: 8.0.3
       parse-domain: 8.2.2
       set-cookie-parser: 2.7.1
 
@@ -1279,12 +1280,12 @@ snapshots:
 
   has-flag@4.0.0: {}
 
-  htmlparser2@9.1.0:
+  htmlparser2@10.0.0:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
       domutils: 3.2.2
-      entities: 4.5.0
+      entities: 6.0.0
 
   http-errors@2.0.0:
     dependencies:
