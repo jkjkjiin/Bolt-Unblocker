@@ -78,16 +78,15 @@
 <p>
   This is a Node JS application with npm packages. You must first run:
   
+  ### to setup and start proxy 
   ```bash
   pnpm i
+  pnpm start
   ```
-  
-  then run
-
-
+### to run proxy
   ```bash
   pnpm start
   ```
-  
+
   You should have Bolt running locally on <b>localhost:8080</b>!
 </p>
