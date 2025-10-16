@@ -13,6 +13,7 @@
 - Beautiful OS GUI
 - Powerful site support
 - Flexible cloaking
+- Ultra fast and secure 
 - Tons of games (powered by Spark Games!!)
 
 
@@ -22,7 +23,7 @@
   </b>
 </h1>
 <p>
-  Bolt uses <a href="https://github.com/titaniumnetwork-dev/Ultraviolet">Ultraviolet</a>, a proxy backend provided from Titanium Network. Ultraviolet v3 is a fast proxy service, but it's successor, <a href="https://github.com/MercuryWorkshop/scramjet">Scramjet</a>, is in the works. Bolt also uses Scramjet, but will default to Ultraviolet because Scramjet is not ready for production yet.
+  Bolt uses <a href="https://github.com/titaniumnetwork-dev/Ultraviolet">Ultraviolet</a>, a proxy backend provided from Titanium Network. Ultraviolet v4 upgraded is a fast proxy service, but it's successor, <a href="https://github.com/MercuryWorkshop/scramjet">Scramjet</a>, is in the works. Bolt also uses Scramjet, but will default to Ultraviolet because Scramjet is not ready for production yet.
 </p>
 <h1>
   <b>
