@@ -7,7 +7,7 @@ if (navigator.userAgent.includes('Firefox')) {
 
 importScripts('/uv/uv.bundle.js');
 importScripts('/uv/uv.config.js');
-importScripts('/uv/uv.sw.js');
+importScripts(__uv$config.sw || 'uv.sw.js');
 importScripts("/scram/scramjet.shared.js", "/scram/scramjet.worker.js");
 
 
